@@ -38,6 +38,20 @@ A task allocation screen used by the administrator to dispatch a qualified techn
 
 ---
 
+### 5. Technician Login (Mobile App)
+Login screen for registered technicians on the mobile application to access their service portal.
+
+![login-technician](login-technician.jpeg)
+
+---
+
+### 6. Customer Dashboard (Mobile App)
+Dashboard interface of the customer mobile application displaying available services and options.
+
+![customer dashboard](customer%20dashboard.jpeg)
+
+---
+
 ## 🛠️ Main Features & Modules
 
 The platform is divided into the following key management directories and modules:
