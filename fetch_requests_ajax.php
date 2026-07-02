@@ -47,10 +47,10 @@ while($row=mysqli_fetch_array($res))
             
             <div class="d-flex mb-4">
                 <a role="button" data-toggle="modal" data-target="#largeImgBox" style="cursor:pointer" class="mr-3">
-                    <img onclick='$("#model_img").attr("src","<?php echo empty($row['photo1'])? 'https://workman247.com/serviceadmin/upload/defaultpic.jpg' : 'https://workman247.com/serviceadmin/upload/'.$row['photo1']; ?>")' src="<?php echo empty($row['photo1'])? 'https://workman247.com/serviceadmin/upload/defaultpic.jpg' : 'https://workman247.com/serviceadmin/upload/'.$row['photo1']; ?>" class="image-preview" width="80" height="80" />
+                    <img onclick='$("#model_img").attr("src","<?php echo empty($row['photo1'])? "https://your-domain.com/serviceadmin/upload/defaultpic.jpg" : "https://your-domain.com/serviceadmin/upload/".$row['photo1']; ?>")' src="<?php echo empty($row['photo1'])? "https://your-domain.com/serviceadmin/upload/defaultpic.jpg" : "https://your-domain.com/serviceadmin/upload/".$row['photo1']; ?>" class="image-preview" width="80" height="80" />
                 </a>
                 <a role="button" data-toggle="modal" data-target="#largeImgBox" style="cursor:pointer">
-                    <img onclick='$("#model_img").attr("src","<?php echo empty($row['photo2'])? 'https://workman247.com/serviceadmin/upload/defaultpic.jpg' : 'https://workman247.com/serviceadmin/upload/'.$row['photo2']; ?>")' src="<?php echo empty($row['photo2'])? 'https://workman247.com/serviceadmin/upload/defaultpic.jpg' : 'https://workman247.com/serviceadmin/upload/'.$row['photo2']; ?>" class="image-preview" width="80" height="80" />
+                    <img onclick='$("#model_img").attr("src","<?php echo empty($row['photo2'])? "https://your-domain.com/serviceadmin/upload/defaultpic.jpg" : "https://your-domain.com/serviceadmin/upload/".$row['photo2']; ?>")' src="<?php echo empty($row['photo2'])? "https://your-domain.com/serviceadmin/upload/defaultpic.jpg" : "https://your-domain.com/serviceadmin/upload/".$row['photo2']; ?>" class="image-preview" width="80" height="80" />
                 </a>
             </div>
 

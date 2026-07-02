@@ -126,7 +126,7 @@ var mapOptions = {
 var map = new google.maps.Map(document.getElementById("map"), mapOptions);  
 }  
 </script>  
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVbzhIE8Y_5XOyPqR0Ap6fXDM7_U4NU9Q&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=myMap"></script>
                     </div>
                 </div>
                 <!-- /Widgets -->
