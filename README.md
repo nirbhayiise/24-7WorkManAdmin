@@ -13,42 +13,42 @@ Here are some screenshots from the WorkMan Admin Panel:
 ### 1. Login Page
 Security access page for authorized administrators to authenticate and access the control panel.
 
-![login](login.jpeg)
+<img src="login.jpeg" alt="login" width="550" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 
 ---
 
 ### 2. Dashboard
 An overview dashboard containing key platform statistics, including requests, technicians, customers count, and recent activity.
 
-![dashboard](dashboard.jpeg)
+<img src="dashboard.jpeg" alt="dashboard" width="550" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 
 ---
 
 ### 3. Service Requests
 An interface displaying all recent customer service requests. Administrators can see details, photos, and current job status.
 
-![request](request.jpeg)
+<img src="request.jpeg" alt="request" width="550" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 
 ---
 
 ### 4. Assign Job
 A task allocation screen used by the administrator to dispatch a qualified technician to a specific service request.
 
-![assign job](assign%20job.jpeg)
+<img src="assign job.jpeg" alt="assign job" width="550" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 
 ---
 
 ### 5. Technician Login (Mobile App)
 Login screen for registered technicians on the mobile application to access their service portal.
 
-![login-technician](login-technician.jpeg)
+<img src="login-technician.jpeg" alt="login-technician" width="260" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 
 ---
 
 ### 6. Customer Dashboard (Mobile App)
 Dashboard interface of the customer mobile application displaying available services and options.
 
-![customer dashboard](customer%20dashboard.jpeg)
+<img src="customer dashboard.jpeg" alt="customer dashboard" width="260" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 
 ---
 
