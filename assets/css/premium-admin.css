@@ -1,0 +1,305 @@
+/* ==========================================================================
+   Premium Admin UI Override - Dark Theme Sidebar & Cyan/Blue Accents
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Typography & Global Layout
+-------------------------------------------------------------------------- */
+body, .content {
+    background-color: #f4f7f6 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+/* --------------------------------------------------------------------------
+   2. Cards (Dashboard & Containers)
+-------------------------------------------------------------------------- */
+.card {
+    border-radius: 16px !important;
+    border: none !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    background: #ffffff;
+    margin-bottom: 30px !important;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-header {
+    background: transparent;
+    border-bottom: 1px solid rgba(0,0,0,0.05) !important;
+    padding: 20px 25px !important;
+    font-weight: 700 !important;
+    color: #333;
+    font-size: 18px !important;
+}
+
+.card-body {
+    padding: 25px !important;
+}
+
+/* --------------------------------------------------------------------------
+   3. Tables (Lists)
+-------------------------------------------------------------------------- */
+.table {
+    border-collapse: separate !important;
+    border-spacing: 0 10px !important;
+    background: transparent !important;
+}
+
+.table thead th {
+    border: none !important;
+    background-color: #f8f9fa !important;
+    color: #555 !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    font-size: 13px !important;
+    padding: 15px 20px !important;
+    letter-spacing: 0.5px !important;
+}
+
+.table tbody tr {
+    background-color: #ffffff !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03) !important;
+    border-radius: 10px !important;
+    transition: all 0.3s ease !important;
+}
+
+.table tbody tr:hover {
+    transform: scale(1.01) !important;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08) !important;
+    z-index: 10 !important;
+    position: relative !important;
+}
+
+.table tbody td {
+    border: none !important;
+    padding: 15px 20px !important;
+    vertical-align: middle !important;
+    color: #555 !important;
+    font-size: 14px !important;
+}
+
+.table tbody tr td:first-child {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.table tbody tr td:last-child {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+/* --------------------------------------------------------------------------
+   4. Buttons
+-------------------------------------------------------------------------- */
+.btn {
+    border-radius: 20px !important;
+    padding: 8px 20px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+    border: none !important;
+    transition: all 0.3s ease !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+}
+
+.btn-primary, .btn-info {
+    background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%) !important;
+    color: #fff !important;
+    box-shadow: 0 4px 15px rgba(0, 114, 255, 0.3) !important;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%) !important;
+    color: #fff !important;
+    box-shadow: 0 4px 15px rgba(56, 239, 125, 0.3) !important;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%) !important;
+    color: #fff !important;
+    box-shadow: 0 4px 15px rgba(255, 75, 43, 0.3) !important;
+}
+
+.btn-warning {
+    background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%) !important;
+    color: #fff !important;
+    box-shadow: 0 4px 15px rgba(247, 151, 30, 0.3) !important;
+}
+
+.btn:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2) !important;
+    opacity: 0.95 !important;
+}
+
+.btn:active {
+    transform: translateY(1px) !important;
+}
+
+/* --------------------------------------------------------------------------
+   5. Modals / Popups (Glassmorphism)
+-------------------------------------------------------------------------- */
+.modal-content {
+    background: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(15px) !important;
+    -webkit-backdrop-filter: blur(15px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 20px !important;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.2) !important;
+    overflow: hidden !important;
+}
+
+.modal-header {
+    background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%) !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 20px 30px !important;
+}
+
+.modal-title {
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+}
+
+.modal-header .close {
+    color: #fff !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+}
+
+.modal-body {
+    padding: 30px !important;
+}
+
+/* --------------------------------------------------------------------------
+   6. Form Inputs
+-------------------------------------------------------------------------- */
+.form-control {
+    border-radius: 10px !important;
+    border: 2px solid #e0e7ff !important;
+    padding: 12px 20px !important;
+    height: auto !important;
+    font-size: 15px !important;
+    color: #333 !important;
+    background: #f9fbfd !important;
+    transition: all 0.3s ease !important;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    background: #ffffff !important;
+    border-color: #00c6ff !important;
+    box-shadow: 0 0 15px rgba(0, 198, 255, 0.2) !important;
+    outline: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   7. Sidebar (Light Theme & Wider)
+-------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+    .left-panel {
+        width: 320px !important;
+    }
+    .right-panel {
+        margin-left: 320px !important;
+        width: calc(100% - 320px) !important;
+    }
+}
+
+.left-panel, .navbar, aside.left-panel {
+    background: #ffffff !important; /* Premium Light White */
+    border-right: 1px solid rgba(0,0,0,0.05) !important;
+    box-shadow: 2px 0 15px rgba(0,0,0,0.03) !important;
+}
+
+.navbar .navbar-nav li > a {
+    color: #555555 !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    padding: 12px 20px !important;
+    border-radius: 8px !important;
+    margin: 5px 15px !important;
+}
+
+.navbar .navbar-nav li > a:hover,
+.navbar .navbar-nav li.active > a {
+    color: #0072ff !important;
+    background: rgba(0, 114, 255, 0.08) !important;
+    transform: translateX(5px) !important;
+}
+
+.navbar .navbar-nav li > a .menu-icon {
+    color: #00c6ff !important;
+    font-size: 18px !important;
+    margin-right: 15px !important;
+}
+
+.navbar .navbar-nav li.menu-title {
+    color: #888888 !important;
+    text-transform: uppercase !important;
+    font-size: 11px !important;
+    letter-spacing: 1px !important;
+    font-weight: 700 !important;
+    padding-left: 20px !important;
+    margin-top: 15px !important;
+}
+
+/* Submenu */
+.navbar .navbar-nav li.menu-item-has-children .sub-menu {
+    background: #f8f9fa !important;
+    border: none !important;
+}
+
+.navbar .navbar-nav li.menu-item-has-children .sub-menu a {
+    color: #666666 !important;
+    padding: 10px 15px 10px 40px !important;
+}
+
+.navbar .navbar-nav li.menu-item-has-children .sub-menu a:hover {
+    color: #0072ff !important;
+    background: transparent !important;
+}
+
+/* --------------------------------------------------------------------------
+   8. Top Header
+-------------------------------------------------------------------------- */
+header.header {
+    background: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border-bottom: 1px solid rgba(0,0,0,0.05) !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03) !important;
+    padding: 10px 20px !important;
+}
+
+.header-left .search-trigger i, 
+.header-left .dropdown .dropdown-toggle i {
+    color: #555 !important;
+    font-size: 20px !important;
+    transition: color 0.3s ease !important;
+}
+
+.header-left .search-trigger:hover i, 
+.header-left .dropdown .dropdown-toggle:hover i {
+    color: #00c6ff !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1; 
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8; 
+}
