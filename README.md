@@ -114,3 +114,12 @@ To run this admin panel locally or on a production server:
 4. **Upload files**:
    * Place the codebase inside your web root (e.g., `htdocs` or `/var/www/html`).
    * Make sure the `upload/` directory has write permissions (`chmod 755` or similar) to handle uploaded fault images.
+
+---
+
+## 👨‍💻 Developer Information
+
+* **Developer:** Nirbhay
+* **WhatsApp:** [+91 8285672453](https://wa.me/918285672453)
+* **Email:** [nirbhayiise@gmail.com](mailto:nirbhayiise@gmail.com)
+
